@@ -9,6 +9,7 @@ As was always inevitable I am completely rehauling the printer design. I am sett
 - TODO: Replace the oversized bed with a 220 mm sized bed that should hopefully reach higher temperatures.
 - TODO: Increase the printable area from approx 210 mm by 200 mm to just less than 220 mm by 220 mm.
 - TODO: Reduce the clearances for the rollers and belt paths. Round the spacings between rollers from 32/pi to 11 mm.
+- TODO: Replace the steel-core timing belts with more flexible belts considering the tight bending radii and new belt path.
 - TODO: Add part cooling, automatic bed leveling and a second hot end.
 - TODO: Enclose the printer on the frame itself, keeping electronics and preferably steppers outside.
 - TODO: Move the XY motors to the back of the frame to improve aesthetics and improve Y axis travel.
