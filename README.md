@@ -5,6 +5,7 @@
 - The aim was to create a 3D printer using only (what I consider to be) common and cheap RepRap components.
 - This repository shall not be detailed. The design is not ideal and was designed mostly when I was fourteen years old with zero experience.
 - Rather than refine this design further, I am applying what I have learned towards other designs and P-Winter V2.
+- Cost estimate: approx 50 GBP for the printer, not including prototyping, currency converted. Parts are cheap if you look in the right places.
 
 ## Dimensions
 - Frame dimensions 380mm x 340mm x 500mm (not fully enclosed and does not include extruder/filament/electronics)
