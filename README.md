@@ -15,7 +15,8 @@
 ## Dimensions and V2 Enclosure
 - V1 Frame (2020 T-slot extrusions): 380mm x 340mm x 500mm
 - V1 Build volume: approx 210mm x 199mm x 270mm
-- V2 will use the same frame with added extrusions for the enclosure and other attachments (e.g. filters).  
+- V2 will use the same frame with added extrusions for the enclosure and other attachments (e.g. filters).
+
 
 - The V1 frame was not enclosable due to the Y endstop and part of the gantry spilling outside the frame volume.
 - V2 changes this, compacting the design while offering a larger build volume. The current build footprint in CAD is a comfortable 220mm x 220mm. ('comfortable' means 1mm of theoretical space on either side of the extreme positions) With a minimal and empty toolhead carriage, the maximum travel can be pushed to a comfortable 250mm x 235mm.
@@ -28,21 +29,26 @@
 - V1 uses 8mm linear rods: 2x 300mm for Y and 2x 350mm for X.
 - These are retained for V2. V2 will use LM8LUUs for Y and LM8UUs/LM8LUUs for X.
 
+
 - V1 used 16T GT2 pulleys and idlers and 6mm steel-core GT2 belts, with 38mm NEMA 17 stepper motors.
 - V2 keeps the motors but uses new belts and idlers:
   - The knockoff pulleys and idlers had questionable bearing quality/centred-ness/profile accuracy. I had spaced them incorrectly in the previous belt path.
   - The steel-core belts had questionable thickness and were incompatible with the small bend radius of the 16T pulleys and idlers.
 - V2 will use proper belts and use stacked F695 flanged bearings as idlers. These have larger bearings designed for motion and are more likely to be round and centred.
 
+
 - On top of the misaligned belt path in V1, my idlers were not operating smoothly on the threaded bolts I was using to hold them.
 - V2 will use dowel pins or shoulder bolts to hold the idlers properly.
+
 
 - V1 used a Hypercube-based belt path where the AB motors occupied space at the front of the Y axis. The motors were an eyesore and limited the travel in Y.
 - The belt path has been completely redrawn for V2. It is now correctly aligned and parallel, and I have brought it as close to the enclosed extremities as possible, increasing travel in both X and Y. The AB motors have been moved to the back of the frame.
 - The AB motors no longer need to be aligned with the belt path. The diameter of the pulleys no longer matter either. Either 16T or 20T can be used with minimal modification.
 
+
 - Some magic with the belt path leaves 307mm of available rod length in the X axis. This allows for an 85mm-wide X carriage to travel 220mm comfortably in the X direction.
-- The motors being in the back of the frame increases the available rod length to 267mm (up to 282mm). A 45mm-wide Y carriage can confortably travel 220mm (up to 235mm) in the Y direction.  
+- The motors being in the back of the frame increases the available rod length to 267mm (up to 282mm). A 45mm-wide Y carriage can confortably travel 220mm (up to 235mm) in the Y direction.
+
 
 - In V1, the motor mounts began to deform due to belt tension and motor weight acting together. The V2 motor positioning allows for a stronger, thicker mount with better-placed bolting holes. The belt tension now acts against the weight of the motor.
 
@@ -51,9 +57,11 @@
 - V2 will use a similar dual-Z setup with 4 rods and 2 leadscrews, but shorten the Z axis to enclosure the printer better.
 - For some reason I only had a 250mm heated bed. V2 replaces the 250mm bed with 210mm-spaced holes with a 220mm bed with 209mm-spaced holes.
 
+
 - Both V1 and V2 do not have automatic bed levelling and utilise two motors driven by the same control.
 - The original V1 -> V2 plan was to implement automatic bed levelling with three independent leadscrews. I decided against this because I would prefer to allocate these resources (added drivers, motors and axes) to my 250mm and 300mm printer projects.
 - A 220mm printer really should just be properly trammed...
+
 
 - The V1 setup used separate Z carriages (one extrusion) on each size of the printer, connected only via the heated bed and unreliable bed levelling springs. They were atrocious to tram relative to each other.
 - V2 will use a mini frame made from 4 extrusions, such that the bed is bolted directly to the T-slot channels using silicon spacers. This will be far stiffer and easier to level.
