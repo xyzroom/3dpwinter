@@ -52,7 +52,7 @@
 - For some reason I only had a 250mm heated bed. V2 replaces the 250mm bed with 210mm-spaced holes with a 220mm bed with 209mm-spaced holes.
 ##
 - Both V1 and V2 do not have automatic bed levelling and utilise two motors driven by the same control.
-- The original V1 -> V2 plan was to implement automatic bed levelling with three independent leadscrews. I decided against this because I would prefer to allocate these resources (added drivers, motors and axes) to my 250mm and 300mm printer projects.
+- The original V1 -> V2 plan was to implement automatic bed levelling with three independent leadscrews. I decided against this because an effective triple Z requires an additional axis, two additional steppers and two additional drivers. There is a risk of overconstraint and having 3 leadscrews may introduce other artefact problems. Overall these are resources I would prefer to allocate to my 250mm and 300mm printer projects.
 - A 220mm printer really should just be properly trammed...
 ##
 - The V1 setup used separate Z carriages (one extrusion) on each size of the printer, connected only via the heated bed and unreliable bed levelling springs. They were atrocious to tram relative to each other.
