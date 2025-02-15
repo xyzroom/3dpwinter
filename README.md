@@ -15,8 +15,8 @@
 ## Dimensions and V2 Enclosure
 - V1 Frame (2020 T-slot extrusions): 380mm x 340mm x 500mm
 - V1 Build volume: approx 210mm x 199mm x 270mm
-- V2 will use the same frame with added extrusions for the enclosure and other attachments (e.g. filters).
-\ \
+- V2 will use the same frame with added extrusions for the enclosure and other attachments (e.g. filters). \ \
+
 - The V1 frame was not enclosable due to the Y endstop and part of the gantry spilling outside the frame volume.
 - V2 changes this, compacting the design while offering a larger build volume. The current build footprint in CAD is a comfortable 220mm x 220mm. ('comfortable' means 1mm of theoretical space on either side of the extreme positions) With a minimal and empty toolhead carriage, the maximum travel can be pushed to a comfortable 250mm x 235mm.
 - The Z axis is being shortened to ensure stability and enable the toolhead's Bowden tube and wiring to be enclosed comfortably.
